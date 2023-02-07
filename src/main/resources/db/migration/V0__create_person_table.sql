@@ -1,2 +1,1 @@
-CREATE TABLE hibernate_sequence (next_val bigint);
-CREATE TABLE person (id integer not null, message varchar, name varchar, primary key (id));
+CREATE TABLE person (id int NOT NULL AUTO_INCREMENT, message varchar(255), name varchar(255), primary key (id));
