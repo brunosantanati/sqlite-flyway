@@ -1,0 +1,1 @@
+INSERT INTO person(name,message) values("Bruno","Hey this is Bruno");

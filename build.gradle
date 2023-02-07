@@ -1,3 +1,12 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath 'org.flywaydb:flyway-mysql:8.5.10'
+	}
+}
+
 plugins {
 	id 'java'
 	id 'org.springframework.boot' version '2.5.6'
